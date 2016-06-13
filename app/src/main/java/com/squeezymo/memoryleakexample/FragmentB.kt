@@ -34,7 +34,7 @@ class FragmentB: AbstractFragment() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.item_confirm -> {
-                activity.supportFragmentManager.popBackStackImmediate()
+                activity.supportFragmentManager.popBackStack()
             }
         }
 
